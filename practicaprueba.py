@@ -1,0 +1,15 @@
+from funciones_p import *
+
+
+while True:
+    print("MENÚ CONTACTOS")
+    print("1. Agregar contacto\n2. Mostrar contactos\n3. Guardar archivo CSV\n4. Salir")
+    opc = int(input("Ingrese opción: "))
+    if opc == 1:
+        pass
+    elif opc == 2:
+        pass
+    elif opc == 3:
+        pass
+    else:
+        pass 
