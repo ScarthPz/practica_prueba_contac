@@ -18,7 +18,14 @@ def opcion_1():
     
 
 def opcion_2():
-    pass
+    if len(contactos) == 0:
+        print("no existe contactos, primero agregue alguno en la opción 1")
+    else:
+        print("LISTA DE CONTACTOS")
+        for c in contactos:
+            print(f"NOMBRE: {c['nombre']}")
+            print(f"TELÉFONO: {c['telefono']}")
+            print(f"CORREO: {c['correo']}\n")
 
 def opcion_3():
     pass

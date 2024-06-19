@@ -6,9 +6,9 @@ while True:
     print("1. Agregar contacto\n2. Mostrar contactos\n3. Guardar archivo CSV\n4. Salir")
     opc = int(input("Ingrese opción: "))
     if opc == 1:
-        pass
+        opcion_1()
     elif opc == 2:
-        pass
+        opcion_2()
     elif opc == 3:
         pass
     else:
