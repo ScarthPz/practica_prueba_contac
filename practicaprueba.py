@@ -12,4 +12,4 @@ while True:
     elif opc == 3:
         opcion_3()
     else:
-        pass 
+        opcion_4 

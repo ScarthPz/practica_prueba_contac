@@ -41,4 +41,5 @@ def opcion_3():
 
 
 def opcion_4():
-    pass
+    print("Adios!")
+    exit()
